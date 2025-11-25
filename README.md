@@ -2,7 +2,7 @@
 
 A comprehensive full-stack expense tracking solution designed to help users manage their personal finances effectively. Built with a modern technology stack featuring React (Vite) for the frontend and Node.js (Express) for the backend, this application leverages the Google Sheets API for reliable and accessible data storage.
 
-### [View Project Demonstration](https://youtu.be/Sqtyaru56o8)
+### [View Project Demonstration](https://youtu.be/LFoe9X2TeUw)
 
 ## Tech Stack
 
