@@ -1,0 +1,50 @@
+.transactions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.transactions-header h2 {
+  margin-bottom: 0 !important; /* Override the default margin from h2 */
+}
+
+.transaction-controls {
+  display: flex;
+  gap: 12px;
+}
+
+.control-select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.control-select:focus {
+  border-color: var(--primary-color);
+}
+
+@media (max-width: 640px) {
+  .transactions-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .transaction-controls {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .control-select {
+    width: 100%;
+  }
+}
